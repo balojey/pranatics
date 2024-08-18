@@ -19,6 +19,7 @@ cycler==0.12.1
 debugpy==1.8.2
 decorator==5.1.1
 defusedxml==0.7.1
+dnspython==1.16.0
 duckdb==1.0.0
 exceptiongroup==1.2.1
 executing==2.0.1
@@ -87,6 +88,7 @@ ptyprocess==0.7.0
 pure-eval==0.2.2
 pycparser==2.22
 Pygments==2.18.0
+pymongo==3.11.0
 pyparsing==3.1.2
 python-dateutil==2.9.0.post0
 python-json-logger==2.0.7
