@@ -158,7 +158,7 @@ def predict_data(database: DuckDBResource):
 def store_prediction_data():
     """ Store the predictions in MongoDB """
 
-    db_name = "predictions_db"
+    db_name = "predict_test"
     collection_name = "predictions"
 
     mongo_client = pymongo.MongoClient(ATLAS_URI)

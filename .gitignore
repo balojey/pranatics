@@ -5,3 +5,4 @@ constants.py
 __pycache__
 sources/pipeline/hedera_pipeline/data/jsons/*
 sources/pipeline/hedera_pipeline/data/staging/*
+.sesskey
