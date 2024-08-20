@@ -1,0 +1,5 @@
+[32m2024-08-20 03:12:13 +0000[0m - dagster - [34mDEBUG[0m - pipeline - a37d4690-37e1-46a1-88ca-47e5bb1ac763 - 813713 - LOGS_CAPTURED - Started capturing logs in process (pid: 813713).
+[32m2024-08-20 03:12:13 +0000[0m - dagster - [34mDEBUG[0m - pipeline - a37d4690-37e1-46a1-88ca-47e5bb1ac763 - 813713 - store_prediction_data - STEP_START - Started execution of step "store_prediction_data".
+[32m2024-08-20 03:12:13 +0000[0m - dagster - [34mDEBUG[0m - pipeline - a37d4690-37e1-46a1-88ca-47e5bb1ac763 - 813713 - store_prediction_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2024-08-20 03:12:13 +0000[0m - dagster - [34mDEBUG[0m - pipeline - a37d4690-37e1-46a1-88ca-47e5bb1ac763 - 813713 - store_prediction_data - ASSET_MATERIALIZATION - Materialized value store_prediction_data.
+[32m2024-08-20 03:12:13 +0000[0m - dagster - [34mDEBUG[0m - pipeline - a37d4690-37e1-46a1-88ca-47e5bb1ac763 - 813713 - store_prediction_data - STEP_SUCCESS - Finished execution of step "store_prediction_data" in 337ms.

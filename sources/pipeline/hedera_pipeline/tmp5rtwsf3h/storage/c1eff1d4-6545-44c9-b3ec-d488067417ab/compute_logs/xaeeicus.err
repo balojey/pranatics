@@ -1,0 +1,5 @@
+[32m2024-08-20 03:24:04 +0000[0m - dagster - [34mDEBUG[0m - pipeline - c1eff1d4-6545-44c9-b3ec-d488067417ab - 844239 - LOGS_CAPTURED - Started capturing logs in process (pid: 844239).
+[32m2024-08-20 03:24:04 +0000[0m - dagster - [34mDEBUG[0m - pipeline - c1eff1d4-6545-44c9-b3ec-d488067417ab - 844239 - crypto_transfer_transactions - STEP_START - Started execution of step "crypto_transfer_transactions".
+[32m2024-08-20 03:24:05 +0000[0m - dagster - [34mDEBUG[0m - pipeline - c1eff1d4-6545-44c9-b3ec-d488067417ab - 844239 - crypto_transfer_transactions - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2024-08-20 03:24:05 +0000[0m - dagster - [34mDEBUG[0m - pipeline - c1eff1d4-6545-44c9-b3ec-d488067417ab - 844239 - crypto_transfer_transactions - ASSET_MATERIALIZATION - Materialized value crypto_transfer_transactions.
+[32m2024-08-20 03:24:05 +0000[0m - dagster - [34mDEBUG[0m - pipeline - c1eff1d4-6545-44c9-b3ec-d488067417ab - 844239 - crypto_transfer_transactions - STEP_SUCCESS - Finished execution of step "crypto_transfer_transactions" in 106ms.
