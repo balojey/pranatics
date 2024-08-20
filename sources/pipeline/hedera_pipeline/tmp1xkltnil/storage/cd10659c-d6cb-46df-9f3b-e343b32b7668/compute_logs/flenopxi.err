@@ -1,0 +1,7 @@
+[32m2024-08-20 01:50:08 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - cd10659c-d6cb-46df-9f3b-e343b32b7668 - 604672 - LOGS_CAPTURED - Started capturing logs in process (pid: 604672).
+[32m2024-08-20 01:50:08 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - cd10659c-d6cb-46df-9f3b-e343b32b7668 - 604672 - predict_data - STEP_START - Started execution of step "predict_data".
+01:50:08 - cmdstanpy - INFO - Chain [1] start processing
+01:50:08 - cmdstanpy - INFO - Chain [1] done processing
+[32m2024-08-20 01:50:08 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - cd10659c-d6cb-46df-9f3b-e343b32b7668 - 604672 - predict_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2024-08-20 01:50:08 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - cd10659c-d6cb-46df-9f3b-e343b32b7668 - 604672 - predict_data - ASSET_MATERIALIZATION - Materialized value predict_data.
+[32m2024-08-20 01:50:08 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - cd10659c-d6cb-46df-9f3b-e343b32b7668 - 604672 - predict_data - STEP_SUCCESS - Finished execution of step "predict_data" in 327ms.

@@ -9,6 +9,10 @@ readme = "README.md"
 python = ">=3.8,<3.13"
 dagster = "^1.8.1"
 dagster-webserver = "^1.8.1"
+duckdb = "^1.0.0"
+pymongo = {version = "3.11", extras = ["srv"]}
+dagster-duckdb = "^0.24.1"
+plotly = "^5.23.0"
 
 
 [build-system]

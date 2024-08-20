@@ -1,0 +1,39 @@
+[32m2024-08-20 02:41:33 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a716efbc-5e7e-4d1e-817b-32817767dfd5 - 738706 - LOGS_CAPTURED - Started capturing logs in process (pid: 738706).
+[32m2024-08-20 02:41:33 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a716efbc-5e7e-4d1e-817b-32817767dfd5 - 738706 - store_prediction_data - STEP_START - Started execution of step "store_prediction_data".
+[32m2024-08-20 02:41:33 +0000[0m - dagster - [34mERROR[0m - [31m__ASSET_JOB - a716efbc-5e7e-4d1e-817b-32817767dfd5 - 738706 - store_prediction_data - STEP_FAILURE - Execution of step "store_prediction_data" failed.
+
+dagster._core.errors.DagsterInvalidMetadata: Could not resolve the metadata value for "Stored prediction id" to a known type. Its type was <class 'bson.objectid.ObjectId'>. Consider wrapping the value with the appropriate MetadataValue type.
+
+Stack Trace:
+  File "/workspace/.pyenv_mirror/poetry/virtualenvs/pipeline-z_B504z3-py3.12/lib/python3.12/site-packages/dagster/_core/execution/plan/execute_plan.py", line 247, in dagster_event_sequence_for_step
+    for step_event in check.generator(step_events):
+  File "/workspace/.pyenv_mirror/poetry/virtualenvs/pipeline-z_B504z3-py3.12/lib/python3.12/site-packages/dagster/_core/execution/plan/execute_step.py", line 500, in core_dagster_event_sequence_for_step
+    for user_event in _step_output_error_checked_user_event_sequence(
+  File "/workspace/.pyenv_mirror/poetry/virtualenvs/pipeline-z_B504z3-py3.12/lib/python3.12/site-packages/dagster/_core/execution/plan/execute_step.py", line 184, in _step_output_error_checked_user_event_sequence
+    for user_event in user_event_sequence:
+  File "/workspace/.pyenv_mirror/poetry/virtualenvs/pipeline-z_B504z3-py3.12/lib/python3.12/site-packages/dagster/_core/execution/plan/execute_step.py", line 89, in _process_asset_results_to_events
+    yield from _process_user_event(step_context, user_event)
+  File "/workspace/.pyenv_mirror/poetry/virtualenvs/pipeline-z_B504z3-py3.12/lib/python3.12/site-packages/dagster/_core/execution/plan/execute_step.py", line 104, in _process_user_event
+    yield AssetResultOutput(
+          ^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pyenv_mirror/poetry/virtualenvs/pipeline-z_B504z3-py3.12/lib/python3.12/site-packages/dagster/_core/execution/plan/execute_step.py", line 72, in __init__
+    super().__init__(*args, **kwargs)
+  File "/workspace/.pyenv_mirror/poetry/virtualenvs/pipeline-z_B504z3-py3.12/lib/python3.12/site-packages/dagster/_core/decorator_utils.py", line 203, in wrapped_with_pre_call_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pyenv_mirror/poetry/virtualenvs/pipeline-z_B504z3-py3.12/lib/python3.12/site-packages/dagster/_core/definitions/events.py", line 132, in __init__
+    self._metadata = normalize_metadata(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pyenv_mirror/poetry/virtualenvs/pipeline-z_B504z3-py3.12/lib/python3.12/site-packages/dagster/_core/definitions/metadata/__init__.py", line 118, in normalize_metadata
+    raise DagsterInvalidMetadata(
+
+The above exception occurred during handling of the following exception:
+dagster._core.errors.DagsterInvalidMetadata: Its type was <class 'bson.objectid.ObjectId'>. Consider wrapping the value with the appropriate MetadataValue type.
+
+Stack Trace:
+  File "/workspace/.pyenv_mirror/poetry/virtualenvs/pipeline-z_B504z3-py3.12/lib/python3.12/site-packages/dagster/_core/definitions/metadata/__init__.py", line 104, in normalize_metadata
+    normalized_value = normalize_metadata_value(v)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pyenv_mirror/poetry/virtualenvs/pipeline-z_B504z3-py3.12/lib/python3.12/site-packages/dagster/_core/definitions/metadata/__init__.py", line 154, in normalize_metadata_value
+    raise DagsterInvalidMetadata(
+[0m

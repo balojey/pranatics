@@ -1,2 +1,5 @@
 file.db*
 .env
+.venv
+constants.py
+__pycache__
