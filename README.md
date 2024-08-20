@@ -2,6 +2,8 @@
 
 **Pranatics** is a predictive analytics system designed to forecast the "crypto transfer" transaction fees on the Hedera network. By predicting future transaction costs, Pranatics enables investors and traders to optimize the timing of their transactions, helping them to minimize fees.
 
+[Live Demo](https://pranaticsvercel-jyulfozav-ademola-baloguns-projects.vercel.app/)
+
 ## System Overview
 
 Pranatics consists of two main components:
