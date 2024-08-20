@@ -1,5 +1,5 @@
 import pymongo
-from lsconstants import ATLAS_URI
+from constants import ATLAS_URI
 
 db_name = "predictions_db"
 collection_name = "predictions"

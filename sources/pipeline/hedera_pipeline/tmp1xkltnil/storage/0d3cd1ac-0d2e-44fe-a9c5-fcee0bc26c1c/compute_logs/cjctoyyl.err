@@ -1,5 +1,0 @@
-[32m2024-08-20 00:34:18 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0d3cd1ac-0d2e-44fe-a9c5-fcee0bc26c1c - 396151 - LOGS_CAPTURED - Started capturing logs in process (pid: 396151).
-[32m2024-08-20 00:34:18 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0d3cd1ac-0d2e-44fe-a9c5-fcee0bc26c1c - 396151 - crypto_transfer_transactions - STEP_START - Started execution of step "crypto_transfer_transactions".
-[32m2024-08-20 00:34:18 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0d3cd1ac-0d2e-44fe-a9c5-fcee0bc26c1c - 396151 - crypto_transfer_transactions - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2024-08-20 00:34:18 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0d3cd1ac-0d2e-44fe-a9c5-fcee0bc26c1c - 396151 - crypto_transfer_transactions - ASSET_MATERIALIZATION - Materialized value crypto_transfer_transactions.
-[32m2024-08-20 00:34:18 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 0d3cd1ac-0d2e-44fe-a9c5-fcee0bc26c1c - 396151 - crypto_transfer_transactions - STEP_SUCCESS - Finished execution of step "crypto_transfer_transactions" in 116ms.

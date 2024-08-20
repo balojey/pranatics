@@ -3,6 +3,5 @@ file.db*
 .venv
 constants.py
 __pycache__
-data/jsons/*
-data/staging/*
-tmp1xkltnil/
+sources/pipeline/hedera_pipeline/data/jsons/*
+sources/pipeline/hedera_pipeline/data/staging/*
