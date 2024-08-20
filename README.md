@@ -9,8 +9,12 @@ Pranatics consists of two main components:
 1. **The Pipeline**
    - A data pipeline was developed to ingest transaction data from Hedera mirror nodes, enabling accurate fee predictions. Data is pulled from the mirror node every 3 minutes, which is sufficient given that the maximum number of crypto transfer transactions occurring within that interval is typically under 100.
 
+   ![Pipeline demo](assets/hedera_hack2.png)
+
 2. **The Dashboard/Frontend**
    - The dashboard visualizes the predictions, presenting them in a user-friendly format with interactive graphs.
+
+   ![Dashboard demo](assets/hedera_hack1.png)
 
 ## Setup Instructions
 
