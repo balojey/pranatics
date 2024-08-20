@@ -3,3 +3,6 @@ file.db*
 .venv
 constants.py
 __pycache__
+data/jsons/*
+data/staging/*
+tmp1xkltnil/
