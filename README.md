@@ -1,6 +1,6 @@
 # Pranatics
 
-**Pranatics** is a predictive analytics system designed to forecast the transaction fees on the Hedera network. By predicting future transaction costs, Pranatics enables investors and traders to optimize the timing of their transactions, helping them to minimize fees.
+**Pranatics** is a predictive analytics system designed to forecast the "crypto transfer" transaction fees on the Hedera network. By predicting future transaction costs, Pranatics enables investors and traders to optimize the timing of their transactions, helping them to minimize fees.
 
 ## System Overview
 
