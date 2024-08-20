@@ -45,6 +45,7 @@ git clone https://github.com/balojey/pranatics
 3. (Optional) Install additional requirements using pip:
 
    ```bash
+   pip install -e ".[dev]"
    pip install -r requirements.txt
    ```
 
